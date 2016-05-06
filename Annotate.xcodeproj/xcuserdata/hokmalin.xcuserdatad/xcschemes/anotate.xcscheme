@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "94678EAA1CDBC9050050BD66"
-               BuildableName = "anotate.app"
-               BlueprintName = "anotate"
-               ReferencedContainer = "container:anotate.xcodeproj">
+               BuildableName = "Annotate.app"
+               BlueprintName = "Annotate"
+               ReferencedContainer = "container:Annotate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94678EAA1CDBC9050050BD66"
-            BuildableName = "anotate.app"
-            BlueprintName = "anotate"
-            ReferencedContainer = "container:anotate.xcodeproj">
+            BuildableName = "Annotate.app"
+            BlueprintName = "Annotate"
+            ReferencedContainer = "container:Annotate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94678EAA1CDBC9050050BD66"
-            BuildableName = "anotate.app"
-            BlueprintName = "anotate"
-            ReferencedContainer = "container:anotate.xcodeproj">
+            BuildableName = "Annotate.app"
+            BlueprintName = "Annotate"
+            ReferencedContainer = "container:Annotate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94678EAA1CDBC9050050BD66"
-            BuildableName = "anotate.app"
-            BlueprintName = "anotate"
-            ReferencedContainer = "container:anotate.xcodeproj">
+            BuildableName = "Annotate.app"
+            BlueprintName = "Annotate"
+            ReferencedContainer = "container:Annotate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

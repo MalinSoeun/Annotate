@@ -9,25 +9,29 @@
 /* Begin PBXBuildFile section */
 		94678EB01CDBC9050050BD66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94678EAF1CDBC9050050BD66 /* main.m */; };
 		94678EB31CDBC9050050BD66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94678EB21CDBC9050050BD66 /* AppDelegate.m */; };
-		94678EB61CDBC9050050BD66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94678EB51CDBC9050050BD66 /* ViewController.m */; };
 		94678EB91CDBC9050050BD66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94678EB71CDBC9050050BD66 /* Main.storyboard */; };
-		94678EBC1CDBC9050050BD66 /* anotate.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94678EBA1CDBC9050050BD66 /* anotate.xcdatamodeld */; };
 		94678EBE1CDBC9050050BD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94678EBD1CDBC9050050BD66 /* Assets.xcassets */; };
 		94678EC11CDBC9050050BD66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94678EBF1CDBC9050050BD66 /* LaunchScreen.storyboard */; };
+		94678ECC1CDBCC650050BD66 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94678ECB1CDBCC650050BD66 /* MainViewController.m */; };
+		94678ECF1CDBCCD90050BD66 /* AnnotateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94678ECE1CDBCCD90050BD66 /* AnnotateView.m */; };
+		94678ED31CDBE69C0050BD66 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94678ED21CDBE69C0050BD66 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		94678EAB1CDBC9050050BD66 /* anotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94678EAB1CDBC9050050BD66 /* Annotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Annotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94678EAF1CDBC9050050BD66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		94678EB11CDBC9050050BD66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94678EB21CDBC9050050BD66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		94678EB41CDBC9050050BD66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		94678EB51CDBC9050050BD66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		94678EB81CDBC9050050BD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		94678EBB1CDBC9050050BD66 /* anotate.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = anotate.xcdatamodel; sourceTree = "<group>"; };
 		94678EBD1CDBC9050050BD66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94678EC01CDBC9050050BD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94678EC21CDBC9050050BD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94678ECA1CDBCC650050BD66 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ViewControllers/MainViewController.h; sourceTree = "<group>"; };
+		94678ECB1CDBCC650050BD66 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ViewControllers/MainViewController.m; sourceTree = "<group>"; };
+		94678ECD1CDBCCD90050BD66 /* AnnotateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnnotateView.h; path = Views/AnnotateView.h; sourceTree = "<group>"; };
+		94678ECE1CDBCCD90050BD66 /* AnnotateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnnotateView.m; path = Views/AnnotateView.m; sourceTree = "<group>"; };
+		94678ED11CDBE69C0050BD66 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrawingView.h; path = Views/DrawingView.h; sourceTree = "<group>"; };
+		94678ED21CDBE69C0050BD66 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrawingView.m; path = Views/DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +48,7 @@
 		94678EA21CDBC9050050BD66 = {
 			isa = PBXGroup;
 			children = (
-				94678EAD1CDBC9050050BD66 /* anotate */,
+				94678EAD1CDBC9050050BD66 /* Annotate */,
 				94678EAC1CDBC9050050BD66 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,25 +56,25 @@
 		94678EAC1CDBC9050050BD66 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94678EAB1CDBC9050050BD66 /* anotate.app */,
+				94678EAB1CDBC9050050BD66 /* Annotate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94678EAD1CDBC9050050BD66 /* anotate */ = {
+		94678EAD1CDBC9050050BD66 /* Annotate */ = {
 			isa = PBXGroup;
 			children = (
+				94678EC91CDBCC470050BD66 /* Views */,
+				94678EC81CDBCC370050BD66 /* ViewControllers */,
 				94678EB11CDBC9050050BD66 /* AppDelegate.h */,
 				94678EB21CDBC9050050BD66 /* AppDelegate.m */,
-				94678EB41CDBC9050050BD66 /* ViewController.h */,
-				94678EB51CDBC9050050BD66 /* ViewController.m */,
 				94678EB71CDBC9050050BD66 /* Main.storyboard */,
 				94678EBD1CDBC9050050BD66 /* Assets.xcassets */,
 				94678EBF1CDBC9050050BD66 /* LaunchScreen.storyboard */,
 				94678EC21CDBC9050050BD66 /* Info.plist */,
-				94678EBA1CDBC9050050BD66 /* anotate.xcdatamodeld */,
 				94678EAE1CDBC9050050BD66 /* Supporting Files */,
 			);
+			name = Annotate;
 			path = anotate;
 			sourceTree = "<group>";
 		};
@@ -82,12 +86,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		94678EC81CDBCC370050BD66 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				94678ECA1CDBCC650050BD66 /* MainViewController.h */,
+				94678ECB1CDBCC650050BD66 /* MainViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		94678EC91CDBCC470050BD66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94678ECD1CDBCCD90050BD66 /* AnnotateView.h */,
+				94678ECE1CDBCCD90050BD66 /* AnnotateView.m */,
+				94678ED11CDBE69C0050BD66 /* DrawingView.h */,
+				94678ED21CDBE69C0050BD66 /* DrawingView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		94678EAA1CDBC9050050BD66 /* anotate */ = {
+		94678EAA1CDBC9050050BD66 /* Annotate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94678EC51CDBC9050050BD66 /* Build configuration list for PBXNativeTarget "anotate" */;
+			buildConfigurationList = 94678EC51CDBC9050050BD66 /* Build configuration list for PBXNativeTarget "Annotate" */;
 			buildPhases = (
 				94678EA71CDBC9050050BD66 /* Sources */,
 				94678EA81CDBC9050050BD66 /* Frameworks */,
@@ -97,9 +121,9 @@
 			);
 			dependencies = (
 			);
-			name = anotate;
+			name = Annotate;
 			productName = anotate;
-			productReference = 94678EAB1CDBC9050050BD66 /* anotate.app */;
+			productReference = 94678EAB1CDBC9050050BD66 /* Annotate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 94678EA61CDBC9050050BD66 /* Build configuration list for PBXProject "anotate" */;
+			buildConfigurationList = 94678EA61CDBC9050050BD66 /* Build configuration list for PBXProject "Annotate" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -129,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94678EAA1CDBC9050050BD66 /* anotate */,
+				94678EAA1CDBC9050050BD66 /* Annotate */,
 			);
 		};
 /* End PBXProject section */
@@ -152,10 +176,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94678EBC1CDBC9050050BD66 /* anotate.xcdatamodeld in Sources */,
-				94678EB61CDBC9050050BD66 /* ViewController.m in Sources */,
 				94678EB31CDBC9050050BD66 /* AppDelegate.m in Sources */,
+				94678ECC1CDBCC650050BD66 /* MainViewController.m in Sources */,
+				94678ECF1CDBCCD90050BD66 /* AnnotateView.m in Sources */,
 				94678EB01CDBC9050050BD66 /* main.m in Sources */,
+				94678ED31CDBE69C0050BD66 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +292,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = anotate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.anotate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Annotate;
 			};
 			name = Debug;
 		};
@@ -278,17 +305,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = anotate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.anotate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Annotate;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94678EA61CDBC9050050BD66 /* Build configuration list for PBXProject "anotate" */ = {
+		94678EA61CDBC9050050BD66 /* Build configuration list for PBXProject "Annotate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94678EC31CDBC9050050BD66 /* Debug */,
@@ -297,28 +326,16 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		94678EC51CDBC9050050BD66 /* Build configuration list for PBXNativeTarget "anotate" */ = {
+		94678EC51CDBC9050050BD66 /* Build configuration list for PBXNativeTarget "Annotate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94678EC61CDBC9050050BD66 /* Debug */,
 				94678EC71CDBC9050050BD66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		94678EBA1CDBC9050050BD66 /* anotate.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				94678EBB1CDBC9050050BD66 /* anotate.xcdatamodel */,
-			);
-			currentVersion = 94678EBB1CDBC9050050BD66 /* anotate.xcdatamodel */;
-			path = anotate.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 94678EA31CDBC9050050BD66 /* Project object */;
 }

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  anotate
 //
 //  Created by Malin on 2016-05-05.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController<UIImagePickerControllerDelegate,
+UINavigationControllerDelegate>
 
 @end
-

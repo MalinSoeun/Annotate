@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  DrawingView.h
 //  anotate
 //
 //  Created by Malin on 2016-05-05.
@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface DrawingView : UIView
 
-@property (strong, nonatomic) UIWindow *window;
+// clear all drawing
+-(void)reset;
 
 @end
-
